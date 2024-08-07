@@ -1,7 +1,4 @@
-
-FROM openjdk:8-jdk-alpine
-
-WORKDIR /app
+FROM openjdk:22-jdk-alpine
 
 ADD build/libs/SA-0.0.1-SNAPSHOT.jar app.jar
 
